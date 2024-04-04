@@ -42,9 +42,7 @@ function usersrs(users){
         name.innerHTML=user.login;
         avatar.src=user.avatar_url;
         avatar.alt=`${user.login}'s avatar`;
-        plink.innerText='View Profile'
-        plink.href=user.html_url;
-        plink.target='_blank';
+        
 
         index.appendChild(name);
         index.appendChild(avatar);
